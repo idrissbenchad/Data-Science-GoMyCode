@@ -1,6 +1,8 @@
-A1=[[1,2,2],[4,3,-1]]  
-le type categorical
-calcule de moyenne 11/6=1,83
-le mode : 2 
-la mediane : 2
-addition : A1+A2= [[3,5,8],[5,7,7]]
+Evaluer 1(#etudiant,#annéescolaire,moyennegénéralestatut)
+-Evaluer2 (#étudiant ,#année scolaire, #épreuve, noteepreuve)
+Evaluer 3 (#étudiant,# annéescolaire, note de projet)
+- Avoir (#année scolaire, #epreuve, #matière,coeffepreuve)
+- Regrouper (#matière #proiet ,#année scolaire ,coeffproiet)
+- Pondérer #matière ,#année scolaire, cooffmatière)
+- Appartenir (#programme, #matière)
+- Inscrire # etudiant ,#année scolaire ,#Programme )
