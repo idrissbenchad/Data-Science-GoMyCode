@@ -1,0 +1,29 @@
+EX1
+-	Etudiant(id,nom_prenon,origine scolaire)
+-	Annee scolaire(id,libelle)
+-	Programme(programme_id,libelle,annee
+-	Matiere(matiere_id,nom,objectif)
+-	Projet(projet_id,libelle)
+-	Epreuve(epreuve_id,libelle
+-	Evaluer 1(#etudiant,#annéescolaire,moyennegénéralestatut)
+-	-Evaluer2 (#étudiant ,#année scolaire, #épreuve, noteepreuve)
+-	Evaluer 3 (#étudiant,# annéescolaire, note de projet)
+-	- Avoir (#année scolaire, #epreuve, #matière,coeffepreuve)
+-	- Regrouper (#matière #proiet ,#année scolaire ,coeffproiet)
+-	- Pondérer #matière ,#année scolaire, cooffmatière)
+-	- Appartenir (#programme, #matière)
+-	- Inscrire # etudiant ,#année scolaire ,#Programme )
+
+EX 2
+-	Championat ( chi_id, ch_nom, ch_date debut, cl_date fin, ma_id)
+-	typedereglement ( re_id, re type, #in_id)
+-	Annee (an_annee )
+-	Club ( cl_id, cl_nom, cl_ville,)
+-	Coureur (co_id, co_nom, co_prenom, co_naissance, co sexe,#in_id)
+-	Categorie age ( ca_id , ca_libelle,ca_agedeb, ca,fin)
+-	Inscriotion ( in_id , in_dossant, in_datainscription, in_age, in_certif, in_taille, in_statut, in_tempsanoncer,in_tempsefectuer)
+-	Manifestation ( ma_id, ma_nom, ma_champ, ma_dataS, ma_dataF, ma_lieux,#ep_id)
+-	Dossart ( do_ id …………..
+-	Adhere (#cl_id, #co_id,#an_annee, …)
+-	Epreuve ( ep_ID……#in_id)
+-	Typeepreuve ( ep_id ……. #ep_ID)
